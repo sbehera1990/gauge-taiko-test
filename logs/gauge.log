@@ -1,0 +1,551 @@
+03-09-2025 16:02:39.716 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+03-09-2025 16:02:39.891 [Gauge] [DEBUG] Plugin screenshot is already installed.
+03-09-2025 16:02:39.974 [Gauge] [DEBUG] Plugin js is already installed.
+03-09-2025 16:02:40.069 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2025 16:02:40.069 [Gauge] [DEBUG] Parsing started.
+03-09-2025 16:02:40.069 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2025 16:02:42.398 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2025 16:02:42.399 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2025 16:02:42.401 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2025 16:02:42.401 [Gauge] [DEBUG] Parsing completed.
+03-09-2025 16:02:45.148 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64391
+03-09-2025 16:02:45.149 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64391
+03-09-2025 16:02:45.149 [Gauge] [DEBUG] Validation started.
+03-09-2025 16:02:45.252 [Gauge] [ERROR] [ValidationError] C:\swagatika\SampleProject\my-taiko-project\specs\example.spec:5 Step implementation not found => 'Navigate to "https://www.google.com"'
+03-09-2025 16:02:45.259 [Gauge] [ERROR] [ValidationError] C:\swagatika\SampleProject\my-taiko-project\specs\example.spec:6 Step implementation not found => 'Search for "Gauge test automation"'
+03-09-2025 16:02:45.264 [Gauge] [ERROR] [ValidationError] C:\swagatika\SampleProject\my-taiko-project\specs\example.spec:7 Step implementation not found => 'Verify "Open Source Test Automation Framework | Gauge" is visible'
+03-09-2025 16:02:45.292 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+03-09-2025 16:02:45.296 [Gauge] [INFO] step("Navigate to <arg0>", async function(arg0) {
+	throw 'Unimplemented Step';
+});
+03-09-2025 16:02:45.328 [Gauge] [INFO] step("Search for <arg0>", async function(arg0) {
+	throw 'Unimplemented Step';
+});
+03-09-2025 16:02:45.371 [Gauge] [INFO] step("Verify <arg0> is visible", async function(arg0) {
+	throw 'Unimplemented Step';
+});
+03-09-2025 16:02:45.373 [Gauge] [DEBUG] Run started
+03-09-2025 16:02:45.407 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2025 16:02:46.220 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-09-2025 16:02:46.222 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64396
+03-09-2025 16:02:46.222 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64396
+03-09-2025 16:02:46.225 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2025 16:02:46.760 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2025 16:03:03.829 [Gauge] [DEBUG] Checking updates...
+03-09-2025 16:03:03.837 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:03:06.826 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:03:07.981 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:03:08.938 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:03:13.638 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2025 16:03:18.637 [js] [ERROR] AssertionError [ERR_ASSERTION]: false == true
+03-09-2025 16:03:18.637 [js] [ERROR] at C:\swagatika\SampleProject\my-taiko-project\tests\test.js:10:13
+03-09-2025 16:03:18.638 [js] [ERROR] at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+03-09-2025 16:03:18.638 [js] [ERROR] generatedMessage: true,
+03-09-2025 16:03:18.638 [js] [ERROR] code: 'ERR_ASSERTION',
+03-09-2025 16:03:18.639 [js] [ERROR] actual: false,
+03-09-2025 16:03:18.639 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+03-09-2025 16:03:18.639 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+03-09-2025 16:03:18.639 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+03-09-2025 16:03:18.640 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+03-09-2025 16:03:18.640 [js] [ERROR] expected: true,
+03-09-2025 16:03:18.641 [Gauge] [INFO] 
+Total time taken: 1.212s
+03-09-2025 16:03:18.641 [js] [ERROR] operator: '=='
+03-09-2025 16:03:18.641 [js] [ERROR] }
+03-09-2025 16:03:18.645 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+03-09-2025 16:03:20.352 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+03-09-2025 16:03:20.364 [Gauge] [DEBUG] Plugin js is already installed.
+03-09-2025 16:03:20.368 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2025 16:03:20.371 [Gauge] [DEBUG] Plugin screenshot is already installed.
+03-09-2025 16:03:20.372 [Gauge] [DEBUG] Parsing started.
+03-09-2025 16:03:20.373 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2025 16:03:22.073 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2025 16:03:22.074 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2025 16:03:22.077 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2025 16:03:22.077 [Gauge] [DEBUG] Parsing completed.
+03-09-2025 16:03:25.161 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56307
+03-09-2025 16:03:25.163 [Gauge] [DEBUG] Successfully made the connection with runner with port: 56307
+03-09-2025 16:03:25.163 [Gauge] [DEBUG] Validation started.
+03-09-2025 16:03:25.201 [Gauge] [DEBUG] Validation completed.
+03-09-2025 16:03:25.203 [Gauge] [DEBUG] Run started
+03-09-2025 16:03:25.220 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2025 16:03:25.368 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-09-2025 16:03:25.373 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56310
+03-09-2025 16:03:25.374 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56310
+03-09-2025 16:03:25.378 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2025 16:03:25.879 [Gauge] [INFO] # Example Specification
+03-09-2025 16:03:25.912 [Gauge] [INFO] ## Example Scenario
+03-09-2025 16:03:25.943 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+03-09-2025 16:03:29.079 [Gauge] [ERROR] Failed Step: Navigate to "https://www.google.com"
+03-09-2025 16:03:29.079 [Gauge] [ERROR] Error Message: Error: Timed out
+03-09-2025 16:03:29.079 [Gauge] [ERROR] Specification: specs\example.spec:5
+03-09-2025 16:03:29.079 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (file:///C:/Users/Administrator/AppData/Roaming/gauge/plugins/js/5.0.1/src/test.js:44:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+03-09-2025 16:03:29.645 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2025 16:03:29.877 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2025 16:03:30.021 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+03-09-2025 16:03:30.022 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+03-09-2025 16:03:30.395 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:03:30.671 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:03:30.748 [Gauge] [INFO] 
+Total time taken: 4.092s
+03-09-2025 16:06:33.893 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+03-09-2025 16:06:33.900 [Gauge] [DEBUG] Plugin js is already installed.
+03-09-2025 16:06:33.900 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2025 16:06:33.911 [Gauge] [DEBUG] Plugin screenshot is already installed.
+03-09-2025 16:06:33.913 [Gauge] [DEBUG] Parsing started.
+03-09-2025 16:06:33.913 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2025 16:06:36.942 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2025 16:06:36.943 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2025 16:06:36.944 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2025 16:06:36.944 [Gauge] [DEBUG] Parsing completed.
+03-09-2025 16:06:42.236 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63801
+03-09-2025 16:06:42.237 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63801
+03-09-2025 16:06:42.237 [Gauge] [DEBUG] Validation started.
+03-09-2025 16:06:42.352 [Gauge] [DEBUG] Validation completed.
+03-09-2025 16:06:42.371 [Gauge] [DEBUG] Run started
+03-09-2025 16:06:42.377 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2025 16:06:42.494 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-09-2025 16:06:42.495 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63804
+03-09-2025 16:06:42.496 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63804
+03-09-2025 16:06:42.499 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2025 16:06:43.828 [Gauge] [INFO] # Example Specification
+03-09-2025 16:06:43.850 [Gauge] [INFO] ## Example Scenario
+03-09-2025 16:06:43.877 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+03-09-2025 16:06:50.764 [Gauge] [DEBUG] Checking updates...
+03-09-2025 16:06:50.778 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:06:51.120 [Gauge] [DEBUG] * Search for "Gauge test automation"
+03-09-2025 16:07:01.946 [Gauge] [DEBUG] Failed to download html-report-install.json file: Get "https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64": unexpected EOF
+03-09-2025 16:07:01.958 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:07:04.193 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:07:04.677 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:07:05.345 [Gauge] [ERROR] Failed Step: Search for "Gauge test automation"
+03-09-2025 16:07:05.346 [Gauge] [ERROR] Error Message: Error: Element focused is not writable
+03-09-2025 16:07:05.346 [Gauge] [ERROR] Specification: specs\example.spec:6
+03-09-2025 16:07:05.346 [Gauge] [ERROR] Stacktrace: 
+Error: Element focused is not writable
+    at node_modules\taiko\lib\actions\pageActionChecks.js:215:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async waitAndGetActionableElement (node_modules\taiko\lib\actions\pageActionChecks.js:180:3)
+    at async write (node_modules\taiko\lib\actions\write.js:65:17)
+    at async module.exports.write (node_modules\taiko\lib\taiko.js:1095:16)
+    at async module.exports.<computed> (node_modules\taiko\lib\taiko.js:2716:14)
+    at async Object.<anonymous> (tests\test.js:10:5)
+03-09-2025 16:07:05.395 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2025 16:07:05.670 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2025 16:07:05.787 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+03-09-2025 16:07:05.788 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+03-09-2025 16:07:05.817 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:07:05.822 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:07:05.827 [Gauge] [INFO] 
+Total time taken: 23.008s
+03-09-2025 16:07:05.833 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+03-09-2025 16:08:37.394 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+03-09-2025 16:08:37.440 [Gauge] [DEBUG] Plugin js is already installed.
+03-09-2025 16:08:37.440 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2025 16:08:37.440 [Gauge] [DEBUG] Plugin screenshot is already installed.
+03-09-2025 16:08:37.440 [Gauge] [DEBUG] Parsing started.
+03-09-2025 16:08:37.440 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2025 16:08:39.428 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2025 16:08:39.428 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2025 16:08:39.428 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2025 16:08:39.428 [Gauge] [DEBUG] Parsing completed.
+03-09-2025 16:08:41.488 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62205
+03-09-2025 16:08:41.489 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62205
+03-09-2025 16:08:41.489 [Gauge] [DEBUG] Validation started.
+03-09-2025 16:08:41.514 [Gauge] [DEBUG] Validation completed.
+03-09-2025 16:08:41.515 [Gauge] [DEBUG] Run started
+03-09-2025 16:08:41.519 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2025 16:08:41.571 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-09-2025 16:08:41.573 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62208
+03-09-2025 16:08:41.574 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 62208
+03-09-2025 16:08:41.577 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2025 16:08:41.861 [Gauge] [INFO] # Example Specification
+03-09-2025 16:08:41.885 [Gauge] [INFO] ## Example Scenario
+03-09-2025 16:08:41.901 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+03-09-2025 16:08:48.655 [Gauge] [DEBUG] * Verify "Open Source Test Automation Framework | Gauge" is visible
+03-09-2025 16:08:49.650 [Gauge] [ERROR] Failed Step: Verify "Open Source Test Automation Framework | Gauge" is visible
+03-09-2025 16:08:49.651 [Gauge] [ERROR] Error Message: {}
+03-09-2025 16:08:49.651 [Gauge] [ERROR] Specification: specs\example.spec:6
+03-09-2025 16:08:49.651 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: below is not defined
+    at Object.<anonymous> (tests\test.js:16:18)
+03-09-2025 16:08:49.740 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2025 16:08:50.339 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2025 16:08:50.358 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+03-09-2025 16:08:50.358 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+03-09-2025 16:08:50.429 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:08:50.442 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:08:50.455 [Gauge] [INFO] 
+Total time taken: 8.159s
+03-09-2025 16:09:13.024 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+03-09-2025 16:09:13.038 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2025 16:09:13.075 [Gauge] [DEBUG] Plugin screenshot is already installed.
+03-09-2025 16:09:13.087 [Gauge] [DEBUG] Plugin js is already installed.
+03-09-2025 16:09:13.087 [Gauge] [DEBUG] Parsing started.
+03-09-2025 16:09:13.087 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2025 16:09:14.951 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2025 16:09:14.953 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2025 16:09:14.955 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2025 16:09:14.955 [Gauge] [DEBUG] Parsing completed.
+03-09-2025 16:09:18.772 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62951
+03-09-2025 16:09:18.772 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62951
+03-09-2025 16:09:18.772 [Gauge] [DEBUG] Validation started.
+03-09-2025 16:09:18.921 [Gauge] [DEBUG] Validation completed.
+03-09-2025 16:09:18.921 [Gauge] [DEBUG] Run started
+03-09-2025 16:09:19.062 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2025 16:09:19.248 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-09-2025 16:09:19.249 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62954
+03-09-2025 16:09:19.249 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 62954
+03-09-2025 16:09:19.253 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2025 16:09:21.094 [Gauge] [INFO] # Example Specification
+03-09-2025 16:09:21.113 [Gauge] [INFO] ## Example Scenario
+03-09-2025 16:09:21.145 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+03-09-2025 16:09:26.868 [Gauge] [DEBUG] * Verify "Open Source Test Automation Framework | Gauge" is visible
+03-09-2025 16:09:37.209 [Gauge] [DEBUG] Checking updates...
+03-09-2025 16:09:37.319 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:09:39.465 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:09:39.692 [Gauge] [ERROR] Failed Step: Verify "Open Source Test Automation Framework | Gauge" is visible
+03-09-2025 16:09:39.692 [Gauge] [ERROR] Error Message: AssertionError [ERR_ASSERTION]: false == true
+03-09-2025 16:09:39.692 [Gauge] [ERROR] Specification: specs\example.spec:6
+03-09-2025 16:09:39.692 [Gauge] [ERROR] Stacktrace: 
+AssertionError [ERR_ASSERTION]: false == true
+    at Object.<anonymous> (tests\test.js:16:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+03-09-2025 16:09:40.354 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2025 16:09:40.698 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:09:40.854 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2025 16:09:40.918 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+03-09-2025 16:09:40.918 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+03-09-2025 16:09:41.076 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:09:41.108 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:09:41.204 [Gauge] [INFO] 
+Total time taken: 21.317s
+03-09-2025 16:12:11.876 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+03-09-2025 16:12:11.876 [Gauge] [DEBUG] Plugin screenshot is already installed.
+03-09-2025 16:12:11.876 [Gauge] [DEBUG] Plugin js is already installed.
+03-09-2025 16:12:11.876 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2025 16:12:11.876 [Gauge] [DEBUG] Parsing started.
+03-09-2025 16:12:11.876 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2025 16:12:14.020 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2025 16:12:14.045 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2025 16:12:14.052 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2025 16:12:14.052 [Gauge] [DEBUG] Parsing completed.
+03-09-2025 16:12:16.727 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53281
+03-09-2025 16:12:16.728 [Gauge] [DEBUG] Successfully made the connection with runner with port: 53281
+03-09-2025 16:12:16.728 [Gauge] [DEBUG] Validation started.
+03-09-2025 16:12:16.763 [Gauge] [ERROR] [ValidationError] C:\swagatika\SampleProject\my-taiko-project\specs\example.spec:6 Step implementation not found => 'Verify if page contains "Feeling Lucky" to right of "Google"'
+03-09-2025 16:12:16.766 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+03-09-2025 16:12:16.767 [Gauge] [INFO] step("Verify if page contains <arg0> to right of <arg1>", async function(arg0, arg1) {
+	throw 'Unimplemented Step';
+});
+03-09-2025 16:12:16.768 [Gauge] [DEBUG] Run started
+03-09-2025 16:12:16.772 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2025 16:12:16.887 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-09-2025 16:12:16.889 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53284
+03-09-2025 16:12:16.890 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53284
+03-09-2025 16:12:16.892 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2025 16:12:17.198 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2025 16:12:17.360 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2025 16:12:17.374 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+03-09-2025 16:12:17.375 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+03-09-2025 16:12:17.402 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+03-09-2025 16:12:17.434 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+03-09-2025 16:12:17.465 [Gauge] [INFO] 
+Total time taken: 413ms
+03-09-2025 16:13:03.956 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+03-09-2025 16:13:03.957 [Gauge] [DEBUG] Plugin js is already installed.
+03-09-2025 16:13:03.957 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2025 16:13:03.957 [Gauge] [DEBUG] Plugin screenshot is already installed.
+03-09-2025 16:13:03.957 [Gauge] [DEBUG] Parsing started.
+03-09-2025 16:13:03.957 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2025 16:13:05.197 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2025 16:13:05.197 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2025 16:13:05.199 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2025 16:13:05.199 [Gauge] [DEBUG] Parsing completed.
+03-09-2025 16:13:08.044 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53292
+03-09-2025 16:13:08.045 [Gauge] [DEBUG] Successfully made the connection with runner with port: 53292
+03-09-2025 16:13:08.045 [Gauge] [DEBUG] Validation started.
+03-09-2025 16:13:08.088 [Gauge] [DEBUG] Validation completed.
+03-09-2025 16:13:08.090 [Gauge] [DEBUG] Run started
+03-09-2025 16:13:08.122 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2025 16:13:08.320 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+03-09-2025 16:13:08.334 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 53295
+03-09-2025 16:13:08.335 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 53295
+03-09-2025 16:13:08.338 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2025 16:13:08.672 [Gauge] [INFO] # Example Specification
+03-09-2025 16:13:08.700 [Gauge] [INFO] ## Example Scenario
+03-09-2025 16:13:08.753 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+03-09-2025 16:13:14.963 [Gauge] [DEBUG] * Validate if page contains "Feeling Lucky" to right of "Google"
+03-09-2025 16:13:25.205 [Gauge] [DEBUG] Checking updates...
+03-09-2025 16:13:25.258 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:13:27.054 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:13:27.701 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:13:27.777 [Gauge] [ERROR] Failed Step: Validate if page contains "Feeling Lucky" to right of "Google"
+03-09-2025 16:13:27.777 [Gauge] [ERROR] Error Message: AssertionError [ERR_ASSERTION]: false == true
+03-09-2025 16:13:27.777 [Gauge] [ERROR] Specification: specs\example.spec:6
+03-09-2025 16:13:27.777 [Gauge] [ERROR] Stacktrace: 
+AssertionError [ERR_ASSERTION]: false == true
+    at Object.<anonymous> (tests\test.js:15:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+03-09-2025 16:13:27.881 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2025 16:13:28.430 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2025 16:13:28.597 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+03-09-2025 16:13:28.607 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+03-09-2025 16:13:28.608 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+03-09-2025 16:13:28.672 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:13:28.684 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-09-2025 16:13:28.709 [Gauge] [INFO] 
+Total time taken: 19.778s
+08-09-2025 15:05:27.114 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+08-09-2025 15:05:27.139 [Gauge] [DEBUG] Plugin js is already installed.
+08-09-2025 15:05:27.153 [Gauge] [DEBUG] Plugin html-report is already installed.
+08-09-2025 15:05:27.172 [Gauge] [DEBUG] Plugin screenshot is already installed.
+08-09-2025 15:05:27.174 [Gauge] [DEBUG] Parsing started.
+08-09-2025 15:05:27.175 [Gauge] [DEBUG] Started concepts parsing.
+08-09-2025 15:05:30.152 [Gauge] [DEBUG] 0 concepts parsing completed.
+08-09-2025 15:05:30.152 [Gauge] [DEBUG] Started specifications parsing.
+08-09-2025 15:05:30.158 [Gauge] [DEBUG] 1 specifications parsing completed.
+08-09-2025 15:05:30.158 [Gauge] [DEBUG] Parsing completed.
+08-09-2025 15:05:32.384 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51038
+08-09-2025 15:05:32.384 [Gauge] [DEBUG] Successfully made the connection with runner with port: 51038
+08-09-2025 15:05:32.384 [Gauge] [DEBUG] Validation started.
+08-09-2025 15:05:32.417 [Gauge] [DEBUG] Validation completed.
+08-09-2025 15:05:32.417 [Gauge] [DEBUG] Run started
+08-09-2025 15:05:32.418 [Gauge] [DEBUG] Starting Html Report plugin
+08-09-2025 15:05:33.054 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+08-09-2025 15:05:33.055 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51041
+08-09-2025 15:05:33.056 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 51041
+08-09-2025 15:05:33.056 [Gauge] [DEBUG] Initialising suite data store.
+08-09-2025 15:05:34.193 [Gauge] [INFO] # Example Specification
+08-09-2025 15:05:34.200 [Gauge] [INFO] ## Example Scenario
+08-09-2025 15:05:34.208 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+08-09-2025 15:05:39.274 [Gauge] [DEBUG] * Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:05:42.344 [Gauge] [DEBUG] Checking updates...
+08-09-2025 15:05:42.345 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+08-09-2025 15:05:42.853 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+08-09-2025 15:05:42.926 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+08-09-2025 15:05:43.000 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,java,js,screenshot&o=windows&a=amd64
+08-09-2025 15:05:49.714 [Gauge] [ERROR] Failed Step: Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:05:49.714 [Gauge] [ERROR] Error Message: AssertionError [ERR_ASSERTION]: false == true
+08-09-2025 15:05:49.714 [Gauge] [ERROR] Specification: specs\example.spec:6
+08-09-2025 15:05:49.714 [Gauge] [ERROR] Stacktrace: 
+AssertionError [ERR_ASSERTION]: false == true
+    at Object.<anonymous> (tests\test.js:15:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+08-09-2025 15:05:49.722 [html-report] [DEBUG] Transformed SuiteResult to report structure
+08-09-2025 15:05:50.038 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+08-09-2025 15:05:50.039 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+08-09-2025 15:05:50.039 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+08-09-2025 15:05:50.048 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:05:50.049 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:05:50.049 [Gauge] [INFO] 
+Total time taken: 17.301s
+08-09-2025 15:05:50.050 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+08-09-2025 15:08:19.840 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+08-09-2025 15:08:19.841 [Gauge] [DEBUG] Plugin js is already installed.
+08-09-2025 15:08:19.841 [Gauge] [DEBUG] Plugin html-report is already installed.
+08-09-2025 15:08:19.841 [Gauge] [DEBUG] Plugin screenshot is already installed.
+08-09-2025 15:08:19.841 [Gauge] [DEBUG] Parsing started.
+08-09-2025 15:08:19.841 [Gauge] [DEBUG] Started concepts parsing.
+08-09-2025 15:08:20.125 [Gauge] [DEBUG] 0 concepts parsing completed.
+08-09-2025 15:08:20.125 [Gauge] [DEBUG] Started specifications parsing.
+08-09-2025 15:08:20.125 [Gauge] [DEBUG] 1 specifications parsing completed.
+08-09-2025 15:08:20.125 [Gauge] [DEBUG] Parsing completed.
+08-09-2025 15:08:20.696 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49253
+08-09-2025 15:08:20.696 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49253
+08-09-2025 15:08:20.696 [Gauge] [DEBUG] Validation started.
+08-09-2025 15:08:20.713 [Gauge] [DEBUG] Validation completed.
+08-09-2025 15:08:20.714 [Gauge] [DEBUG] Run started
+08-09-2025 15:08:20.714 [Gauge] [DEBUG] Starting Html Report plugin
+08-09-2025 15:08:20.732 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+08-09-2025 15:08:20.732 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49256
+08-09-2025 15:08:20.732 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49256
+08-09-2025 15:08:20.733 [Gauge] [DEBUG] Initialising suite data store.
+08-09-2025 15:08:21.031 [Gauge] [INFO] # Example Specification
+08-09-2025 15:08:21.039 [Gauge] [INFO] ## Example Scenario
+08-09-2025 15:08:21.046 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+08-09-2025 15:08:23.099 [Gauge] [DEBUG] * Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:08:33.277 [Gauge] [ERROR] Failed Step: Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:08:33.277 [Gauge] [ERROR] Error Message: AssertionError [ERR_ASSERTION]: false == true
+08-09-2025 15:08:33.277 [Gauge] [ERROR] Specification: specs\example.spec:6
+08-09-2025 15:08:33.277 [Gauge] [ERROR] Stacktrace: 
+AssertionError [ERR_ASSERTION]: false == true
+    at Object.<anonymous> (tests\test.js:15:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+08-09-2025 15:08:33.284 [html-report] [DEBUG] Transformed SuiteResult to report structure
+08-09-2025 15:08:33.303 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+08-09-2025 15:08:33.308 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+08-09-2025 15:08:33.308 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+08-09-2025 15:08:33.315 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:08:33.316 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:08:33.316 [Gauge] [INFO] 
+Total time taken: 12.567s
+08-09-2025 15:09:58.810 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+08-09-2025 15:09:58.811 [Gauge] [DEBUG] Plugin js is already installed.
+08-09-2025 15:09:58.811 [Gauge] [DEBUG] Plugin html-report is already installed.
+08-09-2025 15:09:58.811 [Gauge] [DEBUG] Plugin screenshot is already installed.
+08-09-2025 15:09:58.812 [Gauge] [DEBUG] Parsing started.
+08-09-2025 15:09:58.812 [Gauge] [DEBUG] Started concepts parsing.
+08-09-2025 15:09:59.009 [Gauge] [DEBUG] 0 concepts parsing completed.
+08-09-2025 15:09:59.010 [Gauge] [DEBUG] Started specifications parsing.
+08-09-2025 15:09:59.010 [Gauge] [DEBUG] 1 specifications parsing completed.
+08-09-2025 15:09:59.010 [Gauge] [DEBUG] Parsing completed.
+08-09-2025 15:09:59.553 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59136
+08-09-2025 15:09:59.553 [Gauge] [DEBUG] Successfully made the connection with runner with port: 59136
+08-09-2025 15:09:59.553 [Gauge] [DEBUG] Validation started.
+08-09-2025 15:09:59.569 [Gauge] [DEBUG] Validation completed.
+08-09-2025 15:09:59.570 [Gauge] [DEBUG] Run started
+08-09-2025 15:09:59.570 [Gauge] [DEBUG] Starting Html Report plugin
+08-09-2025 15:09:59.587 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+08-09-2025 15:09:59.587 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59139
+08-09-2025 15:09:59.587 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59139
+08-09-2025 15:09:59.588 [Gauge] [DEBUG] Initialising suite data store.
+08-09-2025 15:09:59.866 [Gauge] [INFO] # Example Specification
+08-09-2025 15:09:59.873 [Gauge] [INFO] ## Example Scenario
+08-09-2025 15:09:59.880 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+08-09-2025 15:10:02.185 [Gauge] [DEBUG] * Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:10:12.233 [js] [ERROR] [DEPRECATED] gauge.screenshotFn will be removed soon, use gauge.customScreenshotWriter instead.
+08-09-2025 15:10:12.327 [Gauge] [ERROR] Failed Step: Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:10:12.327 [Gauge] [ERROR] Error Message: AssertionError [ERR_ASSERTION]: false == true
+08-09-2025 15:10:12.327 [Gauge] [ERROR] Specification: specs\example.spec:6
+08-09-2025 15:10:12.327 [Gauge] [ERROR] Stacktrace: 
+AssertionError [ERR_ASSERTION]: false == true
+    at Object.<anonymous> (tests\test.js:18:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+08-09-2025 15:10:12.338 [html-report] [DEBUG] Transformed SuiteResult to report structure
+08-09-2025 15:10:12.358 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+08-09-2025 15:10:12.374 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+08-09-2025 15:10:12.374 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+08-09-2025 15:10:12.384 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:10:12.384 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:10:12.384 [Gauge] [INFO] 
+Total time taken: 12.763s
+08-09-2025 15:10:39.274 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+08-09-2025 15:10:39.275 [Gauge] [DEBUG] Plugin js is already installed.
+08-09-2025 15:10:39.275 [Gauge] [DEBUG] Plugin html-report is already installed.
+08-09-2025 15:10:39.276 [Gauge] [DEBUG] Plugin screenshot is already installed.
+08-09-2025 15:10:39.276 [Gauge] [DEBUG] Parsing started.
+08-09-2025 15:10:39.276 [Gauge] [DEBUG] Started concepts parsing.
+08-09-2025 15:10:39.474 [Gauge] [DEBUG] 0 concepts parsing completed.
+08-09-2025 15:10:39.474 [Gauge] [DEBUG] Started specifications parsing.
+08-09-2025 15:10:39.474 [Gauge] [DEBUG] 1 specifications parsing completed.
+08-09-2025 15:10:39.474 [Gauge] [DEBUG] Parsing completed.
+08-09-2025 15:10:40.076 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57490
+08-09-2025 15:10:40.076 [Gauge] [DEBUG] Successfully made the connection with runner with port: 57490
+08-09-2025 15:10:40.076 [Gauge] [DEBUG] Validation started.
+08-09-2025 15:10:40.094 [Gauge] [DEBUG] Validation completed.
+08-09-2025 15:10:40.095 [Gauge] [DEBUG] Run started
+08-09-2025 15:10:40.095 [Gauge] [DEBUG] Starting Html Report plugin
+08-09-2025 15:10:40.113 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+08-09-2025 15:10:40.113 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57493
+08-09-2025 15:10:40.113 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 57493
+08-09-2025 15:10:40.114 [Gauge] [DEBUG] Initialising suite data store.
+08-09-2025 15:10:40.405 [Gauge] [INFO] # Example Specification
+08-09-2025 15:10:40.412 [Gauge] [INFO] ## Example Scenario
+08-09-2025 15:10:40.419 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+08-09-2025 15:10:42.175 [Gauge] [DEBUG] * Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:10:52.290 [js] [ERROR] 
+Failed to capture screenshot on failure.
+ReferenceError: path is not defined
+08-09-2025 15:10:52.294 [Gauge] [ERROR] Failed Step: Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:10:52.294 [Gauge] [ERROR] Error Message: AssertionError [ERR_ASSERTION]: false == true
+08-09-2025 15:10:52.294 [Gauge] [ERROR] Specification: specs\example.spec:6
+08-09-2025 15:10:52.294 [Gauge] [ERROR] Stacktrace: 
+AssertionError [ERR_ASSERTION]: false == true
+    at Object.<anonymous> (tests\test.js:21:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+08-09-2025 15:10:52.302 [html-report] [DEBUG] Transformed SuiteResult to report structure
+08-09-2025 15:10:52.315 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+08-09-2025 15:10:52.336 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+08-09-2025 15:10:52.338 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+08-09-2025 15:10:52.343 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:10:52.346 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:10:52.348 [Gauge] [INFO] 
+Total time taken: 12.205s
+08-09-2025 15:12:41.424 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+08-09-2025 15:12:41.429 [Gauge] [DEBUG] Plugin screenshot is already installed.
+08-09-2025 15:12:41.429 [Gauge] [DEBUG] Plugin js is already installed.
+08-09-2025 15:12:41.429 [Gauge] [DEBUG] Plugin html-report is already installed.
+08-09-2025 15:12:41.429 [Gauge] [DEBUG] Parsing started.
+08-09-2025 15:12:41.429 [Gauge] [DEBUG] Started concepts parsing.
+08-09-2025 15:12:41.637 [Gauge] [DEBUG] 0 concepts parsing completed.
+08-09-2025 15:12:41.637 [Gauge] [DEBUG] Started specifications parsing.
+08-09-2025 15:12:41.638 [Gauge] [DEBUG] 1 specifications parsing completed.
+08-09-2025 15:12:41.638 [Gauge] [DEBUG] Parsing completed.
+08-09-2025 15:12:42.223 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55579
+08-09-2025 15:12:42.223 [Gauge] [DEBUG] Successfully made the connection with runner with port: 55579
+08-09-2025 15:12:42.223 [Gauge] [DEBUG] Validation started.
+08-09-2025 15:12:42.241 [Gauge] [DEBUG] Validation completed.
+08-09-2025 15:12:42.241 [Gauge] [DEBUG] Run started
+08-09-2025 15:12:42.242 [Gauge] [DEBUG] Starting Html Report plugin
+08-09-2025 15:12:42.260 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+08-09-2025 15:12:42.260 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55582
+08-09-2025 15:12:42.260 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55582
+08-09-2025 15:12:42.260 [Gauge] [DEBUG] Initialising suite data store.
+08-09-2025 15:12:42.550 [Gauge] [INFO] # Example Specification
+08-09-2025 15:12:42.557 [Gauge] [INFO] ## Example Scenario
+08-09-2025 15:12:42.565 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+08-09-2025 15:12:44.779 [Gauge] [DEBUG] * Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:12:44.788 [js] [ERROR] 
+Failed to capture screenshot on failure.
+ReferenceError: path is not defined
+08-09-2025 15:12:44.798 [Gauge] [ERROR] Failed Step: Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:12:44.798 [Gauge] [ERROR] Error Message: {}
+08-09-2025 15:12:44.798 [Gauge] [ERROR] Specification: specs\example.spec:6
+08-09-2025 15:12:44.798 [Gauge] [ERROR] Stacktrace: 
+ReferenceError: highlight is not defined
+    at Object.<anonymous> (tests\test.js:21:3)
+08-09-2025 15:12:44.804 [html-report] [DEBUG] Transformed SuiteResult to report structure
+08-09-2025 15:12:44.815 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+08-09-2025 15:12:44.847 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+08-09-2025 15:12:44.847 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+08-09-2025 15:12:44.861 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:12:44.865 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:12:44.865 [Gauge] [INFO] 
+Total time taken: 2.562s
+08-09-2025 15:15:03.560 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\swagatika\SampleProject\my-taiko-project\.gauge\screenshots
+08-09-2025 15:15:03.561 [Gauge] [DEBUG] Plugin html-report is already installed.
+08-09-2025 15:15:03.561 [Gauge] [DEBUG] Plugin screenshot is already installed.
+08-09-2025 15:15:03.561 [Gauge] [DEBUG] Plugin js is already installed.
+08-09-2025 15:15:03.562 [Gauge] [DEBUG] Parsing started.
+08-09-2025 15:15:03.562 [Gauge] [DEBUG] Started concepts parsing.
+08-09-2025 15:15:03.831 [Gauge] [DEBUG] 0 concepts parsing completed.
+08-09-2025 15:15:03.831 [Gauge] [DEBUG] Started specifications parsing.
+08-09-2025 15:15:03.832 [Gauge] [DEBUG] 1 specifications parsing completed.
+08-09-2025 15:15:03.832 [Gauge] [DEBUG] Parsing completed.
+08-09-2025 15:15:04.373 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52262
+08-09-2025 15:15:04.373 [Gauge] [DEBUG] Successfully made the connection with runner with port: 52262
+08-09-2025 15:15:04.373 [Gauge] [DEBUG] Validation started.
+08-09-2025 15:15:04.394 [Gauge] [DEBUG] Validation completed.
+08-09-2025 15:15:04.395 [Gauge] [DEBUG] Run started
+08-09-2025 15:15:04.395 [Gauge] [DEBUG] Starting Html Report plugin
+08-09-2025 15:15:04.416 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+08-09-2025 15:15:04.416 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 52265
+08-09-2025 15:15:04.416 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 52265
+08-09-2025 15:15:04.416 [Gauge] [DEBUG] Initialising suite data store.
+08-09-2025 15:15:04.703 [Gauge] [INFO] # Example Specification
+08-09-2025 15:15:04.710 [Gauge] [INFO] ## Example Scenario
+08-09-2025 15:15:04.717 [Gauge] [DEBUG] * Navigate to "https://www.google.com"
+08-09-2025 15:15:06.780 [Gauge] [DEBUG] * Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:15:16.938 [js] [ERROR] 
+Failed to capture screenshot on failure.
+ReferenceError: path is not defined
+08-09-2025 15:15:16.942 [Gauge] [ERROR] Failed Step: Validate if page contains "Feeling Lucky" to right of "Google"
+08-09-2025 15:15:16.942 [Gauge] [ERROR] Error Message: AssertionError [ERR_ASSERTION]: false == true
+08-09-2025 15:15:16.942 [Gauge] [ERROR] Specification: specs\example.spec:6
+08-09-2025 15:15:16.942 [Gauge] [ERROR] Stacktrace: 
+AssertionError [ERR_ASSERTION]: false == true
+    at Object.<anonymous> (tests\test.js:23:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+08-09-2025 15:15:16.953 [html-report] [DEBUG] Transformed SuiteResult to report structure
+08-09-2025 15:15:16.965 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+08-09-2025 15:15:16.966 [html-report] [INFO] Successfully generated html-report to => C:\swagatika\SampleProject\my-taiko-project\reports\html-report\index.html
+08-09-2025 15:15:16.966 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Administrator\AppData\Roaming\gauge\plugins\html-report\4.3.3\themes\default
+08-09-2025 15:15:16.991 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:15:16.993 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+08-09-2025 15:15:16.995 [Gauge] [INFO] 
+Total time taken: 12.554s
